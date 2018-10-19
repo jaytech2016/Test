@@ -16,11 +16,11 @@ public class test {
 		WebElement account = driver1.findElement(By.xpath("//*[@id=\"nav-link-accountList\"]"));
 		account.click();
 		WebElement username = driver1.findElement(By.xpath("//*[@id=\"ap_email\"]"));
-		username.sendKeys("jaysingh2016@gmail.com");
+		username.sendKeys("joysolgh2236@gmail.com");
 		WebElement button =driver1.findElement(By.xpath("//*[@id=\"continue\"]"));
 		button.click();
 		WebElement password =driver1.findElement(By.xpath("//*//*[@id=\"ap_password\"]"));
-		password.sendKeys("1Getalife");
+		password.sendKeys("");
 		WebElement signin =driver1.findElement(By.xpath("//*[@id=\"signInSubmit\"]"));
 		signin.click();
 		WebElement search =driver1.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]"));
