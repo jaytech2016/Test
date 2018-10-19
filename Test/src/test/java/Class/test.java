@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class test {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\msing\\eclipse-workspace\\Test\\Driver\\chromedriver.exe");
-		//System.setProperty("webdriver.firefox.driver", "geckodriver.exe");
+		
 
 		WebDriver driver1 = new ChromeDriver();
 		driver1.get("https://www.amazon.com/");
